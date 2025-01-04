@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 mongoose.connect(process.env.MONGO_URL)
     .then(() => {
         app.listen(process.env.PORT, () => {
-            console.log("listening on port 4000>..");
+            console.log("listening on port 400>..");
         })
 
     })
