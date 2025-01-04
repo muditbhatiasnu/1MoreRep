@@ -20,6 +20,6 @@ mongoose.connect(process.env.MONGO_URL)
 
     })
     .catch((error) => {
-        console.log("erro in connecting to database")
+        console.log("erro in connecting to databae")
     })
 app.use('/api/workouts', workoutRoutes)
